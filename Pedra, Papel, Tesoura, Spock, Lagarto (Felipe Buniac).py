@@ -26,7 +26,6 @@ while (Pontos_player1 < 3) or (Pontos_computer < 3):
     else:
       lista = [computer, player1]
       lista_derrota = [ [3,1], [1,2], [2,4], [4,5], [5,3], [3,4], [4,1], [1,5], [5,2], [2,3] ]
-     # lista_vitoria = [ [1,3], [2,1], [4,2], [5,4], [3,5], [4,3], [1,4], [5,1], [2,5], [3,2] ]
       if lista in lista_derrota:
             Pontos_computer = Pontos_computer +1
             Pontos_player1 = 0
